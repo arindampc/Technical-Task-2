@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin:0em;
+    box-sizing: border-box;
+
+}
+.container1 {
+    background-color: bisque;
+    border: 5px solid black;
+    min-height: 100vh;
+    
+}
+.container2 {
+    margin: 0 auto;
+    max-width: 900px;
+}
+.header_section {
+    margin: 6%;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+.header_section H1 {
+   font-size: 35px;
+    font-weight: bold;
+    color: rgb(145, 6, 6);
+}
+
+.name {
+    text-align-last: right;
+   
+ 
+}
+.img_container img {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 230px;
+  box-shadow: 5px 5px 10px;
+}
+
+.about_container {
+    margin-top: 50px;
+ 
+   
+
+}
+.about_container h2 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    background-color: rgb(252, 174, 146);
+    box-shadow: 5px 5px 10px ;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.about_container p {
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 1px;
+text-align: justify;
+}
+
+.quotes {
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+}
+
+.quotes h2 {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: aquamarine 5px 6px 5px 0 ;
+}
+.quotes ol {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.quotes li {
+    margin: 10px;
+}
+
+footer{
+    text-align: right;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1500px) {
+    .container1{
+        width: 95%;
+      
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .container1{ 
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .img_container img{
+        width: 300px;
+        height: 370px;
+    }
+    @media screen and (max-width: 600px) {
+        .img_container img{
+            flex-direction: column;
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
